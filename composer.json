@@ -1,0 +1,32 @@
+{
+    "name":"globalis/wpg-local-config",
+    "type":"library",
+    "license":"GPL-2.0",
+    "description":"Get local config variables",
+    "homepage":"https://github.com/wp-globalis-tools/wpg-local-config",
+    "authors":[
+        {
+            "name":"Pierre Dargham",
+            "homepage":"https://github.com/pierre-dargham/"
+        },
+        {
+            "name":"GLOBALIS media systems",
+            "homepage":"https://www.globalis-ms.com/"
+        }
+   ],
+   "keywords":[
+        "wordpress",
+        "robo"
+   ],
+   "support":{
+        "issues":"https://github.com/wp-globalis-tools/wpg-local-config/issues"
+   },
+   "require":{
+        "php":">=5.5"
+   },
+    "autoload": {
+        "psr-4": {
+            "Globalis\\WP\\LocalConfig\\": ""
+        }
+    }
+}
