@@ -13,17 +13,20 @@
             "name":"GLOBALIS media systems",
             "homepage":"https://www.globalis-ms.com/"
         }
-   ],
-   "keywords":[
+    ],
+    "keywords":[
         "wordpress",
         "robo"
-   ],
-   "support":{
+    ],
+    "support":{
         "issues":"https://github.com/wp-globalis-tools/wpg-local-config/issues"
-   },
-   "require":{
+    },
+    "require":{
         "php":">=5.5"
-   },
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.5.1"
+    },
     "autoload": {
         "psr-4": {
             "Globalis\\WP\\LocalConfig\\": ""
